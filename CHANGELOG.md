@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](///compare/v1.1.1...v1.2.0) (2022-03-31)
+
+
+### Features
+
+* **list:** Added the list items 7b24823
+
+
+### Bug Fixes
+
+* **list:** Added missing list items 3f05b74
+
 ### [1.1.1](///compare/v1.1.0...v1.1.1) (2022-03-31)
 
 
