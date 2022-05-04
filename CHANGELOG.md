@@ -1,6 +1,10 @@
-# Changelog
+Jason Rocks
+## [1.4.0](///compare/v1.3.1...v1.4.0) (2022-05-04)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### Features
+
+* **generator:** Add output generator testing 0d65cf9
 
 ### [1.3.1](///compare/v1.3.0...v1.3.1) (2022-04-05)
 
