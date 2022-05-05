@@ -1,4 +1,11 @@
 # Jason Rocks
+### [1.4.3](///compare/v1.4.2...v1.4.3) (2022-05-05)
+
+
+### Bug Fixes
+
+* **multiLine2:** Try this as I dont remember syntax be7e107
+
 ### [1.4.2](///compare/v1.4.1...v1.4.2) (2022-05-05)
 
 
