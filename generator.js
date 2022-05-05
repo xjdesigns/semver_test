@@ -2,8 +2,7 @@
 const fs = require('fs');
 const baseLink = 'https://bofcmportal.atlassian.net/browse/'
 let version = ''
-
-console.warn('process argv', process.argv)
+let title = ''
 
 function fileData() {
 	fs.readFile(`${__dirname}/CHANGELOG_TESTINGOUTPUT.md`, 'utf8', (err, data) => {
@@ -12,8 +11,8 @@ function fileData() {
 			return;
 		}
 
-		// console.warn('data', data);
 		if (data) {
+			createTitle(data)
 			const issues = getCommitsFromVersion(data)
 			const issuesWLinks = createLinks(issues)
 			createOutputFile(issuesWLinks)
@@ -21,6 +20,12 @@ function fileData() {
 			console.error('No data from file')
 		}
 	})
+}
+
+function createTitle(data) {
+	const headerRegex = /#([\s\S]*?)\n/g;
+	const header = data.match(headerRegex)
+	title = header[0]
 }
 
 function getCommitsFromVersion(data) {
@@ -67,7 +72,7 @@ function createLinks(issues) {
 }
 
 function createOutputFile(data) {
-	let outski = `${version}\n${data.map(d => {
+	let outski = `${title}${version}\n${data.map(d => {
 		if (d.link) {
 			return d.title + d.link + '\n\n'
 		}
