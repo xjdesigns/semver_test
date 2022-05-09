@@ -57,9 +57,9 @@ function createLinks(issues) {
 
 	for (let i = 0; i < issues.length; i++) {
 		const issue = {
-			title: issues[i]
+			title: `• ${issues[i]}`
 		}
-
+		
 		if (WDFRegex.test(issues[i])) {
 			const match = issues[i].match(WDFRegex)
 			issue['link'] = `[[${match[0]}]](${baseLink}${match[0]})`

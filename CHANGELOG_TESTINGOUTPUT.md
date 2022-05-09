@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file. See [standa
 
 * **washerApi:** Added new routes 7a75802
 * **washerClient:**  WDF-6 Added new components e2c8ffc
+* **washerApi:** Added new routes 7a75802
+* **washerClient:**  WDF-6 Added new components e2c8ffc
+* **washerApi:** Added new routes 7a75802
+* **washerClient:**  WDF-82 Added new components e2c8ffc
+* **washerApi:** Added new routes 7a75802
+* **washerClient:**  WDF-69 Added new components e2c8ffc
 
 ### Bug Fixes
 
