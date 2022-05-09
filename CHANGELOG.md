@@ -1,4 +1,6 @@
 # Jason Rocks
+### [1.4.5](https://github.com/xjdesigns/semver_test/compare/v1.4.4...v1.4.5) (2022-05-09)
+
 ### [1.4.4](///compare/v1.4.3...v1.4.4) (2022-05-05)
 
 
